@@ -1,7 +1,6 @@
 // Config
 int delayMilliseconds = 3000;
 
-// Code
 typedef struct {
   const char* name;
   uint8_t* value;
