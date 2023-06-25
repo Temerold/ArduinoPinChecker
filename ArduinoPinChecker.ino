@@ -7,13 +7,16 @@ typedef struct {
 } pinArray;
 
 const pinArray analogPins[] = {
-  { "A0", A0 },
-  { "A1", A1 },
-  { "A2", A2 },
-  { "A3", A3 },
+  {"A0", A0},
+  {"A1", A1},
+  {"A2", A2},
+  {"A3", A3},
+  {"A4", A4},
+  {"A5", A5}
 };
 
 const pinArray digitalPins[] = {
+  { "0", 0 },
   { "1", 1 },
   { "2", 2 },
   { "3", 3 },
